@@ -1,6 +1,7 @@
 import { ApolloServer } from 'apollo-server-express';
 import express from 'express';
 import mongoose from 'mongoose';
+import consola from 'consola';
 import typeDefs from './typeDefs';
 import resolvers from './resolvers';
 
@@ -20,8 +21,7 @@ const startServer = async () => {
   });
 
   app.listen({ port: 4000 }, () => {
-    // eslint-disable-next-line no-console
-    console.log(`🚀 Server ready at http://mongo:4000${server.graphqlPath}`);
+    consola.info(`🚀 Server ready at http://mongo:4000${server.graphqlPath}`);
   });
 };
 

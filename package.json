@@ -3,6 +3,15 @@
   "version": "1.0.0",
   "main": "src/index.js",
   "license": "MIT",
+  "author": {
+    "name": "Marcel van den Bosch",
+    "email": "m.v.d.bosch@gmail.com"
+  },
+  "homepage": "https://github.com/zwik/apollo-graphql",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zwik/apollo-graphql.git"
+  },
   "scripts": {
     "start": "nodemon -L src/index.js",
     "lint": "eslint src"

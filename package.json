@@ -4,14 +4,10 @@
   "main": "src/index.js",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon -L --exec babel-node src/index.js",
+    "start": "nodemon -L src/index.js",
     "lint": "eslint src"
   },
   "devDependencies": {
-    "@babel/cli": "^7.7.0",
-    "@babel/core": "^7.7.2",
-    "@babel/node": "^7.7.0",
-    "@babel/preset-env": "^7.7.1",
     "eslint": "6.1.0",
     "eslint-config-airbnb-base": "14.0.0",
     "eslint-plugin-import": "2.18.2",

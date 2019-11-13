@@ -1,9 +1,9 @@
-import { ApolloServer } from 'apollo-server-express';
-import express from 'express';
-import mongoose from 'mongoose';
-import consola from 'consola';
-import typeDefs from './typeDefs';
-import resolvers from './resolvers';
+const { ApolloServer } = require('apollo-server-express');
+const express = require('express');
+const mongoose = require('mongoose');
+const consola = require('consola');
+const typeDefs = require('./typeDefs');
+const resolvers = require('./resolvers');
 
 const startServer = async () => {
   const app = express();

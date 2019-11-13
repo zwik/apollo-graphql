@@ -7,8 +7,5 @@
     "eslint:recommended",
     "airbnb-base"
   ],
-  "rules": {},
-  "parserOptions": {
-    "parser": "babel-eslint"
-  }
+  "rules": {}
 }

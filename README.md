@@ -16,4 +16,9 @@ You can start the application by typing
 docker-compose up
 ```
 
+Or without Docker
+```
+yarn run start
+```
+
 This will start Mongo, data will be stored in a Docker Volume. The application can be opened in the browser at http://localhost:4000/graphql.
